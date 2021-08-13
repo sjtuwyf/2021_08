@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        进行IOC:
+           AccountController
+           AccountServiceImpl
+           AccountDaoImpl
+           QueryRunner
+           DataSource: 调用静态工厂的方法
+       进行依赖注入
+           将AccountServiceImpl的对象注入进AccountController中
+           将AccountDaoImpl的对象注入进AccountServiceImpl中
+           将QueryRunner的对象注入到AccountDaoImpl中
+           将DataSource注入到QueryRunner中
+    -->
+    <bean id="accountController" class="com.itheima.controller.AccountController">
+        <property name="accountService" ref="accountService"></property>
+    </bean>
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+    <bean id="accountDao" class="com.itheima.dao.impl.AccountDaoImpl">
+        <property name="queryRunner" ref="queryRunner"></property>
+    </bean>
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner">
+        <!--采用构造函数方式注入-->
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+    </bean>
+    <!--静态工厂方式实例化bean-->
+    <bean id="dataSource" class="com.itheima.utils.DruidUtil" factory-method="getDataSource"></bean>
+</beans>

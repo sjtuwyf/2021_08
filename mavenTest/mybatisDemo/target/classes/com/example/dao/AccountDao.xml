@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.AccountDao">
+    <resultMap id="accountUserMap" type="Account">
+        <id column="aid" property="aid"></id>
+        <result column="money" property="money"></result>
+        <result column="uid" property="uid"></result>
+        <association property="user" javaType="User">
+            <result column="uid" property="uid"></result>
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="sex" property="sex"></result>
+            <result column="birthday" property="birthday"></result>
+        </association>
+    </resultMap>
+
+    <select id="findAccountByAid" parameterType="int" resultMap="accountUserMap">
+        select * from t_user u,t_account a where u.uid=a.uid and a.aid= #{aid}
+
+    </select>
+
+    <resultMap id="accountUserLazyMap" type="Account">
+        <id column="aid" property="aid"></id>
+        <result column="money" property="money"></result>
+        <result column="uid" property="uid"></result>
+        <association property="user" javaType="User" column="uid" select="com.example.dao.UserDao.findUserByUid">
+
+        </association>
+    </resultMap>
+
+
+    <select id="findAccountByAidLazy" resultMap="accountUserLazyMap">
+        select * from t_account where aid = #{aid}
+    </select>
+    <select id="findAccountByUid" resultType="com.example.pojo.Account">
+        select * from t_account where uid=#{uid}
+    </select>
+</mapper>

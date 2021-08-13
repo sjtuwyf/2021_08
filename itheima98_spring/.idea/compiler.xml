@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day01_spring_04" />
+        <module name="day01_spring_02" />
+        <module name="day01_spring_03" />
+        <module name="day01_factory" />
+        <module name="day02_spring_01" />
+        <module name="day02_spring_mybatis_03" />
+        <module name="day02_spring_02" />
+        <module name="day03_spring_transacction_05" />
+        <module name="day03_spring_aop_01" />
+        <module name="day03_spring_transaction_practice" />
+        <module name="day03_spring_aop_02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01_factory" target="1.8" />
+      <module name="day01_spring_02" target="1.8" />
+      <module name="day01_spring_03" target="1.8" />
+      <module name="day01_spring_04" target="1.8" />
+      <module name="day02_spring_01" target="1.8" />
+      <module name="day02_spring_02" target="1.8" />
+      <module name="day02_spring_mybatis_03" target="1.8" />
+      <module name="day03_spring_aop_01" target="1.8" />
+      <module name="day03_spring_aop_02" target="1.8" />
+      <module name="day03_spring_transacction" target="1.8" />
+      <module name="day03_spring_transacction_05" target="1.8" />
+      <module name="day03_spring_transaction_practice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="day02_spring_01" options="" />
+    </option>
+  </component>
+</project>

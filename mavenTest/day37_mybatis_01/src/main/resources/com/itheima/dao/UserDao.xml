@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserDao">
+
+    <resultMap id="userAccountMap" type="User">
+        <id column="uid" property="uid"></id>
+        <result column="address" property="address"></result>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+
+        <collection property="accountList" ofType="Account">
+            <result column="aid" property="aid"></result>
+            <result column="money" property="money"></result>
+            <result column="uid" property="uid"></result>
+        </collection>
+    </resultMap>
+
+
+
+    <select id="findUserAccountByUid" parameterType="int" resultMap="userAccountMap">
+        SELECT * FROM t_user u,t_account a WHERE a.uid = u.uid AND u.uid = #{uid}
+    </select>
+
+    <resultMap id="userRoleMap" type="User">
+        <id column="uid" property="uid"></id>
+        <result column="address" property="address"></result>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+
+        <collection property="roleList" ofType="Role">
+            <result column="rid" property="rid"></result>
+            <result column="rName" property="rName"></result>
+            <result column="rDesc" property="rDesc"></result>
+        </collection>
+    </resultMap>
+    
+    <select id="findUserRoleByUid" parameterType="int" resultMap="userRoleMap">
+        SELECT * FROM t_user u,user_role ur,t_role r WHERE ur.uid=u.uid AND ur.rid=r.rid AND u.uid=#{uid}
+    </select>
+
+</mapper>

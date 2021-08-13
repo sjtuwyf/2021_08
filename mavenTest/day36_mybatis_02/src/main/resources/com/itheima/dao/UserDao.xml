@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace属性: 接口类的全限定名-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <insert id="addUser" parameterType="com.itheima.pojo.User">
+        insert into t_user values (null ,#{username},#{sex},#{birthday},#{address})
+    </insert>
+    <update id="updateUser" parameterType="com.itheima.pojo.User">
+        update t_user set username=#{username},sex=#{sex},address=#{address} where uid=#{uid}
+    </update>
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from t_user where uid=#{id}
+    </delete>
+    <!--
+        每一个子标签，就对应Dao接口中的一个方法
+            查询方法就对应select标签
+            添加方法就对应insert标签
+            删除方法就对应delete标签
+            修改方法就对应update标签
+
+
+
+        标签的id就对应方法的名字
+
+        标签的parameterType就对应方法的参数类型
+
+        标签的resultType(只有select标签才有)就对应方法的返回值类型，如果返回值类型是List，那么
+        resultType就是List的泛型类型
+    -->
+    <select id="findAll" resultType="user">
+        select * from t_user
+    </select>
+    <select id="findById" resultType="com.itheima.pojo.User" parameterType="java.lang.Integer">
+        select * from t_user where uid=#{id}
+    </select>
+    <select id="searchByUsername" resultType="com.itheima.pojo.User" parameterType="string">
+        select * from t_user where username like "%"#{username}"%"
+    </select>
+</mapper>

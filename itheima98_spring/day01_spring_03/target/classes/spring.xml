@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userController" class="com.itheima.controller.UserController">
+<!--        <constructor-arg name="userService" ref="userService"></constructor-arg>-->
+        <property name="userService" ref="userService"></property>
+    </bean>
+    <bean id="userService" class="com.itheima.service.impl.UserServiceImpl">
+<!--        <constructor-arg name="userDao" ref="userDao"></constructor-arg>-->
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <bean id="userDao" class="com.itheima.dao.impl.UserDaoIMpl">
+        <property name="stringArrays">
+            <array>
+                <value>sfdaf</value>
+                <value>sfdaf</value>
+                <value>sfdaf</value>
+                <value>sfdaf</value>
+            </array>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="afsd" value="fdas"></entry>
+                <entry key="afdsgsd" value="fdas"></entry>
+                <entry key="afshtd" value="fdas"></entry>
+                <entry key="afssgd" value="fdas"></entry>
+                <entry key="afersd" value="fdas"></entry>
+            </map>
+        </property>
+        <property name="age" value="13"></property>
+        <property name="username" value="adfs"></property>
+    </bean>
+
+</beans>

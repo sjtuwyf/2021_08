@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省份展示页面</title>
+    <script src="js/axios-0.18.0.js"></script>
+    <script src="js/vuejs-2.5.16.js"></script>
+</head>
+<body>
+    <div id="app">
+        <select id="province">
+            <option>请选择省份</option>
+            <option v-for="(province,index) in provinceList" :value="province.pid" v-text="province.pname"></option>
+        </select>
+    </div>
+    <script>
+        var vue = new Vue({
+           el:"#app",
+           data:{
+                provinceList:[]
+           },
+           methods:{
+                findAll(){
+                    //获取所有省份信息
+                    axios.get("/province?action=findAll").then(response=>{
+                        //获取返回的数据中的flag
+                        if (response.data.flag) {
+                            //查询成功
+                            this.provinceList = response.data.data
+                        }else {
+                            //查询失败
+                            alert("获取省份失败")
+                        }
+                    })
+                }
+           },
+           created(){
+                this.findAll()
+           }
+        });
+    </script>
+</body>
+</html>

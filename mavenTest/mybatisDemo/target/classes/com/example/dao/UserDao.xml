@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.example.dao.UserDao">
+
+    <sql id="selectAll">
+        select * from t_user
+    </sql>
+
+    <delete id="deleteByUids">
+        delete from t_user
+        <foreach collection="list" open="where uid in (" close=")" index="i" item="uid" separator=",">
+            #{uid}
+        </foreach>
+    </delete>
+
+    <select id="findAll" resultType="com.example.pojo.User">
+        <include refid="selectAll"></include>
+    </select>
+
+    <resultMap id="userAccountMap" type="User">
+        <id column="uid" property="uid"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+        <collection property="accountList" ofType="Account">
+            <result column="aid" property="aid"></result>
+            <result column="money" property="money"></result>
+            <result column="uid" property="uid"></result>
+
+        </collection>
+    </resultMap>
+
+    <select id="findUserAccountByUid" parameterType="int" resultMap="userAccountMap">
+        select * from t_user u ,t_account a where u.uid=a.uid and u.uid=#{uid}
+    </select>
+
+    <resultMap id="userRoleMap" type="User">
+        <id column="uid" property="uid"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+        <collection property="roleList" ofType="Role">
+            <result column="rid" property="rid"></result>
+            <result column="rDesc" property="rDesc"></result>
+            <result column="rName" property="rName"></result>
+        </collection>
+    </resultMap>
+
+    <select id="findUserRoleByUid" parameterType="int" resultMap="userRoleMap">
+        select * from t_user u ,user_role ur, t_role r where ur.uid=u.uid and ur.rid=r.rid and u.uid=#{uid}
+    </select>
+
+    <select id="findUserByAddress" parameterType="string" resultType="com.example.pojo.User">
+        select * from t_user
+        <if test="address != null and address.length != 0">
+            where address = #{address}
+        </if>
+    </select>
+    <select id="findUserByAddressAndSex" parameterType="User" resultType="com.example.pojo.User">
+        select * from t_user
+        <where>
+            <if test="address != null and address.length != 0">
+                and address= #{address}
+            </if>
+
+            <if test="sex != null and sex.length != 0">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+    <select id="findUserByUid" resultType="com.example.pojo.User" parameterType="int">
+        select * from t_user where uid = #{uid}
+    </select>
+
+    <resultMap id="userAccountLazyMap" type="User">
+        <id column="uid" property="uid"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+        <collection property="accountList" ofType="Account" column="uid" select="com.example.dao.AccountDao.findAccountByUid">
+
+
+        </collection>
+    </resultMap>
+
+    <select id="findUserByUidLazy" parameterType="int" resultMap="userAccountLazyMap">
+        select * from t_user where uid = #{uid}
+    </select>
+
+</mapper>

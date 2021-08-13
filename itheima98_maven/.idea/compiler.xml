@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day35_javase_02" />
+        <module name="day35_javase_003" />
+        <module name="demo" />
+        <module name="day35_javase_032" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day35_javase_003" target="1.5" />
+      <module name="day35_javase_02" target="1.7" />
+      <module name="day35_javase_031" target="1.7" />
+      <module name="day35_javase_032" target="1.7" />
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
