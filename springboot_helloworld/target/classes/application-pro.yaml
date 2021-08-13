@@ -1,0 +1,24 @@
+server:
+  port: 8083
+jdbc:
+  url: abc
+  name: dff
+
+age: 18
+
+person:
+  age: 43
+  name: asdf
+
+ips:
+  - 13.42.24.24
+  - 343.34.43.43
+  - 234.43.34
+
+students:
+  - age: 23
+    name: edfas
+  - age: 45
+    name: fad
+
+mapss: {"fds":"fas","dafs":34}
