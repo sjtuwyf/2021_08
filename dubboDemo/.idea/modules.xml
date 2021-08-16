@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../LeetCodeTest334/LeetCodeTest334.iml" filepath="$PROJECT_DIR$/../LeetCodeTest334/LeetCodeTest334.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_parent/dubbo_common/dubbo_common.iml" filepath="$PROJECT_DIR$/dubbo_parent/dubbo_common/dubbo_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_parent/dubbo_consumer/dubbo_consumer.iml" filepath="$PROJECT_DIR$/dubbo_parent/dubbo_consumer/dubbo_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_parent/dubbo_parent.iml" filepath="$PROJECT_DIR$/dubbo_parent/dubbo_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_parent/dubbo_provider/dubbo_provider.iml" filepath="$PROJECT_DIR$/dubbo_parent/dubbo_provider/dubbo_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_parent/duubo_interface/duubo_interface.iml" filepath="$PROJECT_DIR$/dubbo_parent/duubo_interface/duubo_interface.iml" />
+    </modules>
+  </component>
+</project>

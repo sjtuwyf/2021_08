@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!--  发布的名称  -->
+    <dubbo:application name="dubbo_consumer"/>
+    <!--  注册中心  -->
+    <dubbo:registry address="zookeeper://192.168.211.128:2181"/>
+    <!--  服务订阅扫包
+          (2.6.0 事务问题)使用了服务的那controller的包, springmvc中的controller也不需要扫包了
+          <dubbo:reference>就不要了
+          在controller的服务注入使用@Reference(dubbo)
+
+        <dubbo:annotation package="com.itheima"/>  -->
+    <!--  id的值必须与controller中的@autowired的属性名称要一致   -->
+    <dubbo:reference interface="org.example.service.UserService" id="userService"/>
+
+    <!--  启动时是否检查服务提供者是否存在，true: 则会检查【上线时】，没有则报错。false不检查
+     retries: 失败后的重试次数
+     -->
+    <dubbo:consumer check="false" timeout="2000" retries="2"/>
+
+</beans>
