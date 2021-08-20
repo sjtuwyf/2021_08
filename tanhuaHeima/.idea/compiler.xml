@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-tanhua-dubbo-interface (2)" />
+        <module name="my-tanhua-dubbo-interface (1)" />
+        <module name="my-tanhua-dubbo-service (1)" />
+        <module name="my-tanhua-dubbo-service (2)" />
+        <module name="my-tanhua-dubbo-service" />
+        <module name="my-tanhua-server (2)" />
+        <module name="my-tanahua-sso" />
+        <module name="my-tanhua-server" />
+        <module name="my-tanhua-dubbo-interface" />
+        <module name="my-tanhua-server (1)" />
+        <module name="my-tanahua-sso (2)" />
+        <module name="my-tanahua-sso (1)" />
+        <module name="my-tanahua-sso (3)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-tanahua-sso" target="1.8" />
+      <module name="my-tanahua-sso (1)" target="1.8" />
+      <module name="my-tanahua-sso (2)" target="1.8" />
+      <module name="my-tanahua-sso (3)" target="1.8" />
+      <module name="my-tanhua" target="1.8" />
+      <module name="my-tanhua-01" target="1.8" />
+      <module name="my-tanhua-03" target="1.8" />
+      <module name="my-tanhua-dubbo" target="1.8" />
+      <module name="my-tanhua-dubbo (1)" target="1.8" />
+      <module name="my-tanhua-dubbo (2)" target="1.8" />
+      <module name="my-tanhua-dubbo-interface" target="1.8" />
+      <module name="my-tanhua-dubbo-interface (1)" target="1.8" />
+      <module name="my-tanhua-dubbo-interface (2)" target="1.8" />
+      <module name="my-tanhua-dubbo-service" target="1.8" />
+      <module name="my-tanhua-dubbo-service (1)" target="1.8" />
+      <module name="my-tanhua-dubbo-service (2)" target="1.8" />
+      <module name="my-tanhua-server" target="1.8" />
+      <module name="my-tanhua-server (1)" target="1.8" />
+      <module name="my-tanhua-server (2)" target="1.8" />
+      <module name="my-tanhua_02" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-tanahua-sso" options="-parameters" />
+      <module name="my-tanahua-sso (1)" options="-parameters" />
+      <module name="my-tanahua-sso (2)" options="-parameters" />
+      <module name="my-tanahua-sso (3)" options="-parameters" />
+      <module name="my-tanhua" options="-parameters" />
+      <module name="my-tanhua-dubbo-interface" options="-parameters" />
+      <module name="my-tanhua-dubbo-interface (1)" options="-parameters" />
+      <module name="my-tanhua-dubbo-interface (2)" options="-parameters" />
+      <module name="my-tanhua-dubbo-service" options="-parameters" />
+      <module name="my-tanhua-dubbo-service (1)" options="-parameters" />
+      <module name="my-tanhua-dubbo-service (2)" options="-parameters" />
+      <module name="my-tanhua-server" options="-parameters" />
+      <module name="my-tanhua-server (1)" options="-parameters" />
+      <module name="my-tanhua-server (2)" options="-parameters" />
+      <module name="my-tanhua_02" options="" />
+    </option>
+  </component>
+</project>
