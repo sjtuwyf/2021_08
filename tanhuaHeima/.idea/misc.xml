@@ -14,6 +14,14 @@
         <option value="$PROJECT_DIR$/../../../study/java_heima2021/06-配套课件/第三部分-项目库课件/01-项目库_【社交行业】探花交友项目课件/Spark + MongoDB实现探花交友项目/day04/代码/my-tanhua-04/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../../study/java_heima2021/06-配套课件/第三部分-项目库课件/01-项目库_【社交行业】探花交友项目课件/Spark + MongoDB实现探花交友项目/day02/代码/my-tanhua/my-tanhua-dubbo/my-tanhua-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../study/java_heima2021/06-配套课件/第三部分-项目库课件/01-项目库_【社交行业】探花交友项目课件/Spark + MongoDB实现探花交友项目/day02/代码/my-tanhua/my-tanhua-dubbo/my-tanhua-dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../study/java_heima2021/06-配套课件/第三部分-项目库课件/01-项目库_【社交行业】探花交友项目课件/Spark + MongoDB实现探花交友项目/day02/代码/my-tanhua/my-tanhua-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../study/java_heima2021/06-配套课件/第三部分-项目库课件/01-项目库_【社交行业】探花交友项目课件/Spark + MongoDB实现探花交友项目/day02/代码/my-tanhua/my-tanhua-server/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="adopt-openjdk-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

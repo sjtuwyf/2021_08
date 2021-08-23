@@ -1,0 +1,320 @@
+
+a	java:S112á"FDefine and throw a dedicated exception instead of using a generic one.(ÎÓşŸúÿÿÿÿ
+{
+java:S1149€	"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(İ¨Ğ˜ùÿÿÿÿ
+Q	java:S125K"<This block of commented-out lines of code should be removed.(¤ï”¤
+t
+java:S2293]"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+u
+java:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+n
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(‡¾¿ùÿÿÿÿ
+W	java:S125°"<This block of commented-out lines of code should be removed.(Üî‹Íøÿÿÿÿ
+W	java:S125Á"<This block of commented-out lines of code should be removed.(—³¹¡ÿÿÿÿÿ
+u
+java:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ºöºıÿÿÿÿ
+u
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+i
+java:S3776Ñ"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(ˆÑ¾ù
+p
+java:S2293Ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª€Š
+u
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+W	java:S125»"<This block of commented-out lines of code should be removed.(Üî‹Íøÿÿÿÿ
+u
+java:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+n
+java:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(ô„şúÿÿÿÿ
+p
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª€Š
+P
+java:S4719Ê"9Replace charset name argument with StandardCharsets.UTF_8(ËÆ¢
+U
+java:S4719Ë"9Replace charset name argument with StandardCharsets.UTF_8(ğ§ùÏşÿÿÿÿ
+O
+java:S4719Ì"9Replace charset name argument with StandardCharsets.UTF_8(ôÛ¬T
+W	java:S125Ñ"<This block of commented-out lines of code should be removed.(Üî‹Íøÿÿÿÿ
+u
+java:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(•ïÇÿÿÿÿÿ
+?	java:S108§")Either remove or fill this block of code.(ÆòàÔ
+n
+java:S3776ğ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ä¹ÿ°ÿÿÿÿÿ
+n
+java:S3776Ë"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(î¡ ¬øÿÿÿÿ
+2
+java:S3626Ÿ"Remove this redundant jump.(ûÁİ…
+u
+java:S2293ı"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+n
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(•ì­Ÿùÿÿÿÿ
+2
+java:S3626¯"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626º"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626Ê"Remove this redundant jump.(ÉŠ©ƒ
+W	java:S125¬"<This block of commented-out lines of code should be removed.(¸Ø’–ıÿÿÿÿ
+p
+java:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(ëşßá
+p
+java:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãÑÿ˜
+P
+java:S4719Á"9Replace charset name argument with StandardCharsets.UTF_8(ËÆ¢
+U
+java:S4719Â"9Replace charset name argument with StandardCharsets.UTF_8(ğ§ùÏşÿÿÿÿ
+O
+java:S4719Ã"9Replace charset name argument with StandardCharsets.UTF_8(ôÛ¬T
+p
+java:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+u
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+p
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+u
+java:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ÷ÉÑÿÿÿÿÿ
+p
+java:S2293³"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293Â"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ¨ˆ·
+u
+java:S2293æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ºöºıÿÿÿÿ
+u
+java:S2293ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(Û²¬öøÿÿÿÿ
+W	java:S125ş"<This block of commented-out lines of code should be removed.(µÉé“ıÿÿÿÿ
+W	java:S125µ	"<This block of commented-out lines of code should be removed.(×ò÷Êøÿÿÿÿ
+n
+java:S3776Å	"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(±â‘îúÿÿÿÿ
+2
+java:S3626
+"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626®
+"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626Â
+"Remove this redundant jump.(ÉŠ©ƒ
+W	java:S125É	"<This block of commented-out lines of code should be removed.(¸Ø’–ıÿÿÿÿ
+p
+java:S2293Ø	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ëşßá
+p
+java:S2293Ù	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãÑÿ˜
+P
+java:S4719Ş	"9Replace charset name argument with StandardCharsets.UTF_8(ËÆ¢
+U
+java:S4719ß	"9Replace charset name argument with StandardCharsets.UTF_8(ğ§ùÏşÿÿÿÿ
+O
+java:S4719à	"9Replace charset name argument with StandardCharsets.UTF_8(ôÛ¬T
+p
+java:S2293æ	"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293ñ	"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293€
+"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+u
+java:S2293ˆ
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+u
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ÷ÉÑÿÿÿÿÿ
+W	java:S125œ
+"<This block of commented-out lines of code should be removed.(•ïÇÿÿÿÿÿ
+p
+java:S2293¢
+"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293º
+"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293É
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ¨ˆ·
+n
+java:S3776Õ
+"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¨Ş§æûÿÿÿÿ
+2
+java:S3626š"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626¤"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626´"Remove this redundant jump.(ÉŠ©ƒ
+W	java:S125Ø
+"<This block of commented-out lines of code should be removed.(¸Ø’–ıÿÿÿÿ
+p
+java:S2293ç
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ëşßá
+p
+java:S2293è
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãÑÿ˜
+P
+java:S4719í
+"9Replace charset name argument with StandardCharsets.UTF_8(ËÆ¢
+U
+java:S4719î
+"9Replace charset name argument with StandardCharsets.UTF_8(ğ§ùÏşÿÿÿÿ
+O
+java:S4719ï
+"9Replace charset name argument with StandardCharsets.UTF_8(ôÛ¬T
+p
+java:S2293õ
+"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İúùíúÿÿÿÿ
+u
+java:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ÷ÉÑÿÿÿÿÿ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293¬"YReplace the type specification in this constructor call with the diamond operator ("<>").( ¢˜µ
+p
+java:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ¨ˆ·
+h
+java:S1192ó"LDefine a constant instead of duplicating this literal "error_info" 19 times.(Şú¨ôüÿÿÿÿ
+b
+java:S1192Õ"KDefine a constant instead of duplicating this literal "detail_no" 42 times.(·½Úœ
+e
+java:S1192"IDefine a constant instead of duplicating this literal "msg_flag" 4 times.(Ê¥ê«úÿÿÿÿ
+j
+java:S1192¬"NDefine a constant instead of duplicating this literal "order_status" 12 times.(éÓ–ºúÿÿÿÿ
+^
+java:S1192Ê"GDefine a constant instead of duplicating this literal "123456" 4 times.(ËÆ¢
+d
+java:S1192¢"HDefine a constant instead of duplicating this literal "cust_no" 4 times.(î«ƒøÿÿÿÿ
+^
+java:S1192æ"GDefine a constant instead of duplicating this literal "remsg" 10 times.(Ä£Â
+c
+java:S1192"LDefine a constant instead of duplicating this literal "msg_confirm" 4 times.(¶ÎŒ
+c
+java:S1192©"GDefine a constant instead of duplicating this literal "params" 6 times.(æØ¸¤ıÿÿÿÿ
+_
+java:S1192½"HDefine a constant instead of duplicating this literal "status" 21 times.(³ğ£§
+•
+java:S1192i"zDefine a constant instead of duplicating this literal "ï¼Œè¯·æ£€æŸ¥å‚æ•°æ˜¯å¦åˆæ³•ï¼ˆå¦‚é•¿åº¦ã€ç±»å‹...ï¼‰" 8 times.(áÍ»øÿÿÿÿ
+d
+java:S1192Q"IDefine a constant instead of duplicating this literal "plat_no" 49 times.(ÙñÓàüÿÿÿÿ
+`
+java:S1192´"IDefine a constant instead of duplicating this literal "batch_id" 3 times.(ÀººÁ
+g
+java:S1192b"LDefine a constant instead of duplicating this literal "return_msg" 28 times.(Äˆ¦ìùÿÿÿÿ
+e
+java:S1192«"IDefine a constant instead of duplicating this literal "card_no" 10 times.(—Æñ¾øÿÿÿÿ
+e
+java:S1192«"IDefine a constant instead of duplicating this literal "id_type" 13 times.(—Æñ¾øÿÿÿÿ
+f
+java:S1192²"JDefine a constant instead of duplicating this literal "channelId" 4 times.(†´½øÿÿÿÿ
+\
+java:S1192Ù"FDefine a constant instead of duplicating this literal "email" 5 times.(‡ïîV
+g
+java:S1192•"KDefine a constant instead of duplicating this literal "mobile_tel" 6 times.(Ê·©Òúÿÿÿÿ
+g
+java:S1192¥"KDefine a constant instead of duplicating this literal "gateway_no" 9 times.( ìÙÒûÿÿÿÿ
+b
+java:S1192ÿ"KDefine a constant instead of duplicating this literal "trans_name" 3 times.(ËÿüÓ
+f
+java:S1192ò"JDefine a constant instead of duplicating this literal "error_no" 19 times.(³Ù¬Ñÿÿÿÿÿ
+e
+java:S1192¦"NDefine a constant instead of duplicating this literal "bindCodeCache" 3 times.(ÂÜ¡Î
+g
+java:S1192ş"KDefine a constant instead of duplicating this literal "trans_code" 3 times.(çö¯²úÿÿÿÿ
+f
+java:S1192²"JDefine a constant instead of duplicating this literal "cus_type" 16 times.(œ®”õüÿÿÿÿ
+]
+java:S1192Ì"GDefine a constant instead of duplicating this literal "123abc" 4 times.(ôÛ¬T
+d
+java:S1192Q"IDefine a constant instead of duplicating this literal "pay_code" 6 times.(ÙñÓàüÿÿÿÿ
+e
+java:S1192Ë"IDefine a constant instead of duplicating this literal "12345678" 4 times.(ğ§ùÏşÿÿÿÿ
+h
+java:S1192«"LDefine a constant instead of duplicating this literal "pre_mobile" 14 times.(—Æñ¾øÿÿÿÿ
+f
+java:S1192ı"PDefine a constant instead of duplicating this literal "batch_serial_id" 3 times.(ôè“"
+`
+java:S1192í"IDefine a constant instead of duplicating this literal "flow_id" 10 times.(‘Å¯Î
+f
+java:S1192¹"JDefine a constant instead of duplicating this literal "trans_pwd" 5 times.(½ßèúÿÿÿÿ
+^
+java:S1192Ê"GDefine a constant instead of duplicating this literal "UTF-8" 13 times.(ËÆ¢
+g
+java:S1192Ã"PDefine a constant instead of duplicating this literal "æœªçŸ¥çŠ¶å†µï¼" 3 times.(ÒÎ£
+e
+java:S1192Q"JDefine a constant instead of duplicating this literal "platcust" 38 times.(ÙñÓàüÿÿÿÿ
+y
+java:S1192±"]Define a constant instead of duplicating this literal "account_verification_channel" 8 times.(» Üÿÿÿÿÿ
+e
+java:S1192Q"JDefine a constant instead of duplicating this literal "order_no" 24 times.(ÙñÓàüÿÿÿÿ
+_
+java:S1192ä"HDefine a constant instead of duplicating this literal "recode" 13 times.(Òş¶
+d
+java:S1192«"HDefine a constant instead of duplicating this literal "mobile" 69 times.(—Æñ¾øÿÿÿÿ
+e
+java:S1192«"IDefine a constant instead of duplicating this literal "id_code" 18 times.(—Æñ¾øÿÿÿÿ
+c
+java:S1192ı"LDefine a constant instead of duplicating this literal "send_mobile" 3 times.(¯ÚÇé
+h
+java:S1192b"MDefine a constant instead of duplicating this literal "return_code" 30 times.(Äˆ¦ìùÿÿÿÿ
+t	java:S135İ"YReduce the total number of break and continue statements in this loop to use at most one.(Àù¹öûÿÿÿÿ
+t	java:S135½"YReduce the total number of break and continue statements in this loop to use at most one.(²Ö›üÿÿÿÿ
+t	java:S135Ú	"YReduce the total number of break and continue statements in this loop to use at most one.(²Ö›üÿÿÿÿ
+t	java:S135é
+"YReduce the total number of break and continue statements in this loop to use at most one.(²Ö›üÿÿÿÿ
+F
+java:S1066´"/Merge this if statement with the enclosing one.(Éı’­
+F
+java:S1066Ò"/Merge this if statement with the enclosing one.(®—ëî
+F
+java:S1066Ú"/Merge this if statement with the enclosing one.(Ÿ”ÚÁ
+K
+java:S1066±"/Merge this if statement with the enclosing one.(» Üÿÿÿÿÿ
+K
+java:S1066™"/Merge this if statement with the enclosing one.(» Üÿÿÿÿÿ
+K
+java:S1066À"/Merge this if statement with the enclosing one.(» Üÿÿÿÿÿ
+K
+java:S1066ç"/Merge this if statement with the enclosing one.(» Üÿÿÿÿÿ
+K
+java:S1066®"/Merge this if statement with the enclosing one.(ÇºİÁúÿÿÿÿ
+E
+java:S1066û"/Merge this if statement with the enclosing one.(±’œ7
+F
+java:S1066"/Merge this if statement with the enclosing one.(ªñÅæ
+F
+java:S1066à"/Merge this if statement with the enclosing one.(ÙëÀ®
+K
+java:S1066ğ"/Merge this if statement with the enclosing one.(¯Í“»ıÿÿÿÿ
+F
+java:S1066‘"/Merge this if statement with the enclosing one.(…ï›§
+K
+java:S1066¢"/Merge this if statement with the enclosing one.(ñ¾É¢şÿÿÿÿ
+Q
+java:S1141–	"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+l	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é»Ç£øÿÿÿÿ
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÜ¡Î
+g	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ï¦£
+f	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛ¬T
+g	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª†–‚
+f	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛ¬T
+g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î•½
+l	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“û¤¹ÿÿÿÿÿ
+l	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÓşŸúÿÿÿÿ
+g	java:S117†	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¯¾Õ
+f	java:S117à	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛ¬T
+l	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÑ‚şÿÿÿÿ
+f	java:S117ï
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛ¬T
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‹€ó
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(ëŞï®
+h
+java:S2095‰	"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(™ıÄ“

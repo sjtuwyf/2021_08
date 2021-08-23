@@ -1,0 +1,10 @@
+
+V
+java:S1126B"AReplace this if-then-else statement by a single return statement.(Ç¥á*
+m
+java:S3776I"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ïÌ¡üûÿÿÿÿ
+V
+java:S6213µ":Rename this variable to not match a restricted identifier.(Í—ä´úÿÿÿÿ
+V
+java:S6213Ï":Rename this variable to not match a restricted identifier.(ØÐÓ°úÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(™«ÑÜ

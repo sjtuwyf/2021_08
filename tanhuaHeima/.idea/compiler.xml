@@ -11,11 +11,8 @@
         <module name="my-tanhua-dubbo-interface (1)" />
         <module name="my-tanhua-dubbo-service (1)" />
         <module name="my-tanhua-dubbo-service (2)" />
-        <module name="my-tanhua-dubbo-service" />
         <module name="my-tanhua-server (2)" />
         <module name="my-tanahua-sso" />
-        <module name="my-tanhua-server" />
-        <module name="my-tanhua-dubbo-interface" />
         <module name="my-tanhua-server (1)" />
         <module name="my-tanahua-sso (2)" />
         <module name="my-tanahua-sso (1)" />

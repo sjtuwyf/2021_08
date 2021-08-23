@@ -1,0 +1,33 @@
+
+m
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(é±ğÙıÿÿÿÿ
+M
+java:S1854x"8Remove this useless assignment to local variable "user".(¬Ú¥N
+n
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ˆŞŞäıÿÿÿÿ
+P
+java:S6213":Rename this variable to not match a restricted identifier.(¶­
+I
+java:S1135¯"2Complete the task associated to this TODO comment.(“ßâå
+N
+java:S1135°"2Complete the task associated to this TODO comment.(ôÅÑøÿÿÿÿ
+S
+java:S1854á"=Remove this useless assignment to local variable "likeCount".(Úšìw
+Y
+java:S1854"=Remove this useless assignment to local variable "loveCount".(…úúÿÿÿÿ
+l
+java:S1192œ"UDefine a constant instead of duplicating this literal "QUANZI_COMMENT_LIKE_" 3 times.(¿Ø¤
+v
+java:S1192¤"ZDefine a constant instead of duplicating this literal "QUANZI_COMMENT_LOVE_USER_" 3 times.(µÁ¥æûÿÿÿÿ
+q
+java:S1192™"ZDefine a constant instead of duplicating this literal "QUANZI_COMMENT_LIKE_USER_" 3 times.(“á‘Ç
+q
+java:S1192§"UDefine a constant instead of duplicating this literal "QUANZI_COMMENT_LOVE_" 3 times.(ŒÆğÇüÿÿÿÿ
+A
+java:S5411š"*Use the primitive boolean expression here.(ÊµÓ›
+A
+java:S5411¥"*Use the primitive boolean expression here.(–µßå
+F
+java:S5411ã"*Use the primitive boolean expression here.(å¨ú…ıÿÿÿÿ
+F
+java:S5411‘"*Use the primitive boolean expression here.(å¨ú…ıÿÿÿÿ
