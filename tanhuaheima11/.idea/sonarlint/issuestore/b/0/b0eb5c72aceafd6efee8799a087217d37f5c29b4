@@ -1,0 +1,13 @@
+
+t
+java:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(“²½ıùÿÿÿÿ
+j
+java:S1128"ORemove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.(ßÔïÇûÿÿÿÿ
+Z
+java:S1128"?Remove this unused import 'com.sun.corba.se.spi.ior.ObjectKey'.(ŸÜû®şÿÿÿÿ
+c
+java:S1128"MRemove this unused import 'org.springframework.messaging.MessagingException'.(¿Şâ
+b
+java:S1192N"GDefine a constant instead of duplicating this literal "mobile" 4 times.(ƒ—²­úÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(ŸÜû®şÿÿÿÿ
