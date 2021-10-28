@@ -59,6 +59,8 @@ public class HuanXinService {
             //发起请求
             ResponseEntity<String> responseEntity = this.restTemplate.postForEntity(url, httpEntity, String.class);
 
+
+
             return responseEntity.getStatusCodeValue() == 200;
         } catch (Exception e) {
             e.printStackTrace();

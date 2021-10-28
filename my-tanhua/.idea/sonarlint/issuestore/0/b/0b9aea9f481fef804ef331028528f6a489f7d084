@@ -1,0 +1,13 @@
+
+v
+java:S1128"TRemove this unused import 'org.springframework.messaging.handler.annotation.Header'.(¢á»™úÿÿÿÿ8÷å’İ¼/
+_
+java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8÷å’İ¼/
+L
+java:S5411""*Use the primitive boolean expression here.(¢§ô¤øÿÿÿÿ8øå’İ¼/
+G
+java:S54119"*Use the primitive boolean expression here.(¸²ç”8øå’İ¼/
+¦
+java:S4449#"ˆAnnotate the parameter with @javax.annotation.Nullable in method 'ok' declaration, or make sure that null can not be passed as argument.(ş›ÛŒ8€æ’İ¼/
+¦
+java:S4449:"ˆAnnotate the parameter with @javax.annotation.Nullable in method 'ok' declaration, or make sure that null can not be passed as argument.(ş›ÛŒ8æ’İ¼/
